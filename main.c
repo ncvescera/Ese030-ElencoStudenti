@@ -5,10 +5,10 @@
 #define MAX_STRLEN 30
 // Definisci il tipo di dato struct s_studente
 struct s_studente{
-    char name[MAX_STRLEN];
-    char surname[MAX_STRLEN];
+    char name[MAX_STRLEN+1];
+    char surname[MAX_STRLEN+1];
     unsigned int age;
-    char class[MAX_STRLEN];
+    char class[MAX_STRLEN+1];
 };
 // Definisci studente come struct s_studente
 typedef struct s_studente studente;
